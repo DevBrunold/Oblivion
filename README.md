@@ -1,6 +1,5 @@
 # Meu portifólio 🧛🏻‍♂️
 
- [preview](./.github/Spacecowboy.png)
 
 > Um puco da minha dedicação ⭐️
 
