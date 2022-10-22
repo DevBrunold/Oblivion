@@ -1,0 +1,49 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.btn{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background:conic-gradient(#121212, #595959) ;
+    animation: efeito 1.3s ease infinite ;
+    transition: 1s ease;
+}
+@keyframes efeito{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container :hover .btn:before {
+    background:#595959 ;
+}
+a{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 147px;
+    height: 52px;
+    background: #ffff13;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:rgb(237, 43, 195);
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
